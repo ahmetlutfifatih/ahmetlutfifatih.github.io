@@ -5,16 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ahmet Lütfi Fatih</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .photos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; max-width: 920px; margin: 2em 0; align-items: start; }
+    .photos figure { margin: 0; }
+    .photos img { display: block; width: 100%; height: auto; }
+    .photos figcaption { margin-top: .65em; }
+    @media (max-width: 480px) { .photos { gap: 16px; } }
+  </style>
 </head>
 <body>
 <main>
   <h1>Ahmet Lütfi Fatih</h1>
 
 
+
+
   <p>Hi, I’m Ahmet. I like the liberties mathematics takes with ordinary words. In the 5-adic numbers, 626 is closer to 1 than 6 is. Subtract 1 from each and count the factors of 5. In the projective plane, even parallel lines get to meet. I think Euclid would want a word about the small print.</p>
   <p>I’m also drawn to the place where linear algebra, differential equations and differential geometry meet. A tangent plane lets me do linear algebra on a curved surface, at least in a small neighbourhood. Give me a vector field on that surface and a differential equation tells me which way to walk. How far I can trust my flat sketch is where the geometry gets interesting.</p>
   <p>I also build unmanned aircraft. Over six years of TEKNOFEST projects, I’ve built eleven drones.</p>
   <p>I play the ney, guitar and piano, and I write poetry. I practise both traditional Turkish archery and Olympic recurve archery. I used to play basketball, too. Of the three sports, that was the one where the target occasionally had someone standing in front of it waving both arms.</p>
+
+
 
 
   <h2 id="maths">A little maths history</h2>
@@ -25,12 +36,32 @@
 
 
 
+
+
+
+
   <p>I was a maths olympiad competitor and once represented Türkiye in international competition.</p>
+
+
 
 
   <h2 id="papers">Papers</h2>
   
   <p>Papers to come. I have an unlimited supply of positive integers and am working on the papers to match.</p>
+
+  <div class="photos" id="photos">
+    <figure>
+      <img src="chalkboard.jpeg" width="1600" height="1200" alt="Ahmet writing mathematics on a green chalkboard" loading="lazy">
+      <figcaption>Turning “it looks true” into “it has to be true”. The chalk is wearing down faster than the doubt.</figcaption>
+    </figure>
+    <figure>
+      <img src="euler.jpeg" width="1536" height="1024" alt="Ahmet beside Euler’s identity on a chalkboard" loading="lazy">
+      <figcaption>Euler brought five constants together. I turned up for the group photo.</figcaption>
+    </figure>
+  </div>
 </main>
 </body>
 </html>
+
+
+
